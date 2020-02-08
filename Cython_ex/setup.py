@@ -10,3 +10,6 @@ setup(
 # 때문에 distutils도 gcc를 지원 안 함
 # distutil로 하려면, ms가만든 msvc 써야함
 # 음..설치하자...
+
+
+# python setup.py build_ext --inplace
