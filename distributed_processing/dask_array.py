@@ -36,7 +36,7 @@ print(dict(a_da.dask))
 
 # ex: monte carlo pi val estimate
 N = 100000
-chunksize = 2000
+chunksize = 20000
 
 x_data = np.random.uniform(-1, 1, N)
 y_data = np.random.uniform(-1, 1, N)
